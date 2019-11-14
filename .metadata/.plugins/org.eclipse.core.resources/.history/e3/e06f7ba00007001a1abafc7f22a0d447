@@ -1,0 +1,5 @@
+package annotationsDemo;
+
+public interface Coach {
+
+}

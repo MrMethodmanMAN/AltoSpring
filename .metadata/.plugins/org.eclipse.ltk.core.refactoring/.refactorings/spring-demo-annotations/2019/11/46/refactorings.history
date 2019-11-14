@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-demo-annotations/src/beanScope-applicationContext.xml&apos; to &apos;applicationContext.xml&apos;" description="Rename resource &apos;beanScope-applicationContext.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/beanScope-applicationContext.xml" name="applicationContext.xml" stamp="1573742761951" updateReferences="true"/>
+</session>

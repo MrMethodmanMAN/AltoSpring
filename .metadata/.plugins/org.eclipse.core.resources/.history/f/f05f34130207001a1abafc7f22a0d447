@@ -1,0 +1,15 @@
+package annotationsDemo;
+
+import org.springframework.stereotype.Component;
+
+@Component("TennisCoach")
+public class TennisCoach implements Coach 
+{
+
+	@Override
+	public String getDailyWorkout() 
+	{		
+		return "Practice your backhand volley";
+	}
+
+}
