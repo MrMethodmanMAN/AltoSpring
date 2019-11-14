@@ -1606,3 +1606,63 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:27:11.214
 !MESSAGE executing callback sts4.classpath.BLpmGAmr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.409
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.410
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.412
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.446
+!MESSAGE buffering callback sts4.classpath.BLpmGAmr spring-demo-annotations false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.447
+!MESSAGE Preparing classpath changed notification spring-demo-one
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.448
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.449
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.450
+!MESSAGE buffering callback sts4.classpath.BLpmGAmr spring-demo-one false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.451
+!MESSAGE executing callback sts4.classpath.BLpmGAmr 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.537
+!MESSAGE executing callback sts4.classpath.BLpmGAmr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.601
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.602
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.608
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.610
+!MESSAGE buffering callback sts4.classpath.BLpmGAmr spring-demo-annotations false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.610
+!MESSAGE Preparing classpath changed notification spring-demo-one
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.611
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.612
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.613
+!MESSAGE buffering callback sts4.classpath.BLpmGAmr spring-demo-one false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.614
+!MESSAGE executing callback sts4.classpath.BLpmGAmr 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-14 17:29:08.668
+!MESSAGE executing callback sts4.classpath.BLpmGAmr SUCCESS [done]
