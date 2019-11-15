@@ -1,7 +1,11 @@
 package annotationsDemo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,14 +19,23 @@ public class TennisCoach implements Coach
 	{
 		System.out.println("calling tennisCoach");
 	}
-	/*
-	@Autowired
-	public void sampleMethod(FortuneService fortuneService) {
-		System.out.println(" sampleMethod");
-		this.fortuneService = fortuneService;
+	
+	//define my init method 
+	
+	@PostConstruct
+	public void sampleMethod() {
+		System.out.println(" sampleMethod startup method post construct");
+		
+		//this.fortuneService = fortuneService;
 	}
 	
+	@PreDestroy
+	public void samplePreMethod() {
+		System.out.println(" sampleMethod finishup method post construct");
+		//this.fortuneService = fortuneService;
+	}
 	
+	/*
 	public FortuneService getFortuneService() {
 		return fortuneService;
 	}

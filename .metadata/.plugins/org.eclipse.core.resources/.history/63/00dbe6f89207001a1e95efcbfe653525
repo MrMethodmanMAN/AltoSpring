@@ -1,0 +1,15 @@
+package annotationsDemo;
+
+public class AnnotationsBeanScopeDemoApp
+{
+	public static void main(String[] args)
+	{
+		// load the spring congi
+		CLassPathXmlApplicationContext context = new CLassPathXmlApplicationContext("applicationContext.xml");
+		
+		
+		//retrieve bean from teh spring container 
+		
+		
+	}
+}
