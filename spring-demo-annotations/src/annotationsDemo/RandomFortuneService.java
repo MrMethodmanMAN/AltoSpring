@@ -18,6 +18,7 @@ public class RandomFortuneService implements FortuneService {
 	{
 		//select random fortune from array 
 		int index = myRandom.nextInt(data.length);
+		System.out.println("random generated");
 		
 		String theFortune = data[index];
 		

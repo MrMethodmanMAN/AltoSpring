@@ -27,6 +27,8 @@ public class TennisCoach implements Coach
 		System.out.println(" sampleMethod startup method post construct");
 		
 		//this.fortuneService = fortuneService;
+		System.out.println("calling random forutne method");
+		this.fortuneService.getFortune();
 	}
 	
 	@PreDestroy
