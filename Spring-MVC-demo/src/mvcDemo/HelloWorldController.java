@@ -5,8 +5,11 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+//use of parent mapping 
+@RequestMapping("/hello")
 public class HelloWorldController 
 {
 	 // need a controller method to show the intial tml form 
@@ -41,6 +44,24 @@ public class HelloWorldController
 		// add message to model 		 
 		 model.addAttribute("message", result);
 		 
+		return "helloWorld";
+	}
+
+	@RequestMapping("/processFormVersionThree")
+	public String processFormVersionThree(@RequestParam("studentName") String theName,
+			Model model)
+	{
+
+		//convert data to upper case 
+		 theName = theName.toUpperCase();
+		
+		// create message 
+		 String result  = "Hey there " + theName;
+		 		
+		// add message to model 		 
+		 model.addAttribute("message", result);
+		
+		 // name of the method found in view
 		return "helloWorld";
 	}
 
